@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/icon_saitekina_logo_black"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_shop"
+        android:icon="@drawable/icon_shop"
+        android:title="Shop" />
+
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/icon_cart"
+        android:title="Cart" />
+
+    <item
+        android:id="@+id/nav_contact"
+        android:icon="@drawable/icon_contact"
+        android:title="Contact" />
+
+</menu>

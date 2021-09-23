@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/pink_dull">
+
+    <ImageView
+        android:id="@+id/textView_photo"
+        android:paddingTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="191dp"
+        android:layout_height="194dp"
+        android:src="@drawable/shop_eiffeltower_1000" />
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AFRO BANGLES"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textFontWeight="@android:integer/config_mediumAnimTime"
+        android:layout_below="@+id/textView_photo"/>
+
+    <TextView
+        android:id="@+id/textView_price"
+        android:text="1000.00"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textFontWeight="@android:integer/config_mediumAnimTime"
+        android:layout_below="@id/textView_title"
+        />
+    <Button
+        android:id="@+id/btn_addtocart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to Cart"
+        android:layout_below="@+id/textView_price"
+        android:layout_centerHorizontal="true"
+        >
+    </Button>
+
+
+</RelativeLayout>
